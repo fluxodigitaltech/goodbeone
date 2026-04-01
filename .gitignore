@@ -1,0 +1,10 @@
+.DS_Store
+Thumbs.db
+node_modules/
+.gemini/
+brain/
+skill.md
+task.md
+implementation_plan.md
+walkthrough.md
+.dyad/

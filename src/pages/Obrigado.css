@@ -1,0 +1,8 @@
+@keyframes countdown {
+  from { opacity: 1; }
+  to { opacity: 0.5; }
+}
+
+#countdown {
+  animation: countdown 1s infinite alternate;
+}

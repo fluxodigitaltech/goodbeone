@@ -1,0 +1,28 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --color-primary: #05260D;
+  --color-secondary: #1F822B;
+  --color-highlight: #9EC414;
+  --color-cta: #D9FF0D;
+}
+
+body {
+  @apply font-sans text-[#0A0A0A] bg-white overflow-x-hidden;
+}
+
+.text-gradient {
+  @apply bg-clip-text text-transparent bg-gradient-to-r from-primary to-secondary;
+}
+
+@keyframes liquid-blob {
+  0% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; transform: rotate(0deg); }
+  50% { border-radius: 30% 60% 70% 40% / 50% 60% 30% 60%; transform: rotate(10deg) scale(1.05); }
+  100% { border-radius: 60% 40% 30% 70% / 60% 30% 70% 40%; transform: rotate(-5deg); }
+}
+
+.animate-liquid {
+  animation: liquid-blob 12s infinite alternate ease-in-out;
+}
