@@ -47,7 +47,7 @@ const Index = () => {
 
           <div className="container mx-auto relative z-[10] px-6 md:px-4 text-center">
             <h1 className="text-3xl md:text-7xl font-black text-white mb-4 md:mb-6 leading-[1.15]">
-              GoodBe.
+              Goodbe.
               <br />
               <span className="text-cta italic">
                 Um novo jeito de cuidar
@@ -151,7 +151,7 @@ const Index = () => {
             onClick={() => setIsModalOpen(true)}
             className="bg-cta text-primary font-black uppercase tracking-widest px-8 md:px-12 py-4 md:py-6 rounded-2xl hover:scale-105 transition-all shadow-2xl mb-16 md:mb-24 text-sm md:text-base"
           >
-            Viver a experiência GoodBe
+            Viver a experiência Goodbe
           </button>
           <div className="border-t border-white/10 pt-10 md:pt-16 flex flex-col items-center">
             <img src="goodbe seu centro de bem estar.png" alt="Logo" className="h-10 md:h-14 mb-6 md:mb-8" />
