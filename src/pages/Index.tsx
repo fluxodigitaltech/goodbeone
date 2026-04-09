@@ -1,5 +1,5 @@
 import React, { useState } from 'react';
-import { Infinity as InfinityIcon, Barbell, HandHeart, DeviceMobile } from '@phosphor-icons/react';
+import { Infinity as InfinityIcon, Leaf, HandHeart, DeviceMobile } from '@phosphor-icons/react';
 import VideoSection from '../components/VideoSection';
 import LeadModal from '../components/LeadModal';
 import FloatingCTA from '../components/FloatingCTA';
@@ -59,7 +59,7 @@ const Index = () => {
               </div>
               <div className="text-center px-2">
                 <div className="w-14 h-14 md:w-16 md:h-16 mx-auto mb-3 md:mb-4 flex items-center justify-center text-secondary">
-                  <Barbell size={48} weight="duotone" />
+                  <Leaf size={48} weight="duotone" />
                 </div>
                 <h3 className="font-black text-primary text-sm md:text-base mb-1.5">Método Integrado</h3>
                 <p className="text-gray-500 text-xs md:text-sm leading-relaxed">O melhor do Pilates, Yoga e Funcional no <strong className="text-primary">mesmo plano</strong>.</p>
@@ -169,8 +169,8 @@ const Index = () => {
             Viver a experiência Goodbe
           </button>
           <div className="border-t border-white/10 pt-10 md:pt-16 flex flex-col items-center">
-            <img src="goodbe seu centro de bem estar.png" alt="Logo" className="h-10 md:h-14 mb-6 md:mb-8" />
-            <p className="font-black text-base md:text-xl mb-3 tracking-tight">Goodbe. Bem-estar que funciona.</p>
+            <p className="font-black text-base md:text-xl mb-4 md:mb-6 tracking-tight">Goodbe. Bem-estar que funciona.</p>
+            <img src="goodbe seu centro de bem estar.png" alt="Logo" className="h-10 md:h-14" />
           </div>
           <p className="mt-12 md:mt-20 text-xs text-white/30 uppercase tracking-[0.2em] pb-16 md:pb-0">
             © {new Date().getFullYear()} Goodbe - Todos os direitos reservados
