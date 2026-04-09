@@ -10,6 +10,7 @@ const Index = () => {
   const modalities = [
     { name: 'MAT PILATES', img: 'MAT PILATES.png' },
     { name: 'PILATES STUDIO', img: 'PILATES STUDIO.png' },
+    { name: 'YOGA', img: 'YOGA.png' },
     { name: 'FUNCIONAL', img: 'FUNCIONAL.png' },
     { name: 'RITMOS', img: 'RITMOS.png' },
     { name: 'MASSAGEM', img: 'MASSAGEM.png' },
@@ -62,7 +63,7 @@ const Index = () => {
                   <Leaf size={48} weight="duotone" />
                 </div>
                 <h3 className="font-black text-primary text-sm md:text-base mb-1.5">Método Integrado</h3>
-                <p className="text-gray-500 text-xs md:text-sm leading-relaxed">O melhor do Pilates, Yoga e Funcional no <strong className="text-primary">mesmo plano</strong>.</p>
+                <p className="text-gray-500 text-xs md:text-sm leading-relaxed">O melhor do Pilates, Yoga, Funcional e Ritmos no <strong className="text-primary">mesmo plano</strong>.</p>
               </div>
               <div className="text-center px-2">
                 <div className="w-14 h-14 md:w-16 md:h-16 mx-auto mb-3 md:mb-4 flex items-center justify-center text-secondary">
@@ -114,7 +115,7 @@ const Index = () => {
               <br className="md:hidden" />
               <span className="text-secondary">se sentir bem</span>
             </h2>
-            <div className="grid grid-cols-2 lg:grid-cols-5 gap-3 md:gap-8">
+            <div className="grid grid-cols-2 md:grid-cols-3 lg:grid-cols-6 gap-3 md:gap-6">
               {modalities.map((m) => (
                 <div key={m.name} className="bg-white px-2 py-5 md:py-8 rounded-2xl md:rounded-3xl border-b-4 md:border-b-8 border-highlight shadow-lg md:shadow-xl hover:-translate-y-3 transition-all duration-300 text-center group">
                   <div className="w-16 h-16 md:w-28 md:h-28 mx-auto mb-3 md:mb-6 rounded-full overflow-hidden border-2 md:border-4 border-gray-100 group-hover:border-secondary transition-colors bg-white p-1 md:p-2">
