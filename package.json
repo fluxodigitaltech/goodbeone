@@ -10,7 +10,7 @@
     "preview": "vite preview"
   },
   "dependencies": {
-    "@phosphor-icons/react": "^2.0.15",
+    "@phosphor-icons/react": "^2.1.10",
     "@types/node": "^25.3.3",
     "@vercel/node": "^5.6.9",
     "axios": "^1.13.6",
